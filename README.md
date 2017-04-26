@@ -6,7 +6,8 @@
 
 1. [เริ่มต้น Bot ตัวแรกกับ Microsoft Bot Framework](https://github.com/teerasej/mission-to-mar-thai/blob/master/mission-1.md)
 2. [ส่ง Bot สู่ความเวิ้งว้างกับ Microsoft Azure](https://github.com/teerasej/mission-to-mar-thai/blob/master/mission-2.md) 
-3. เชื่อมต่อกับ Facebook Page
+3. [เชื่อมต่อ Bot กับ Microsoft Bot Framework](http://nextflow.in.th/2017/connect-chatbot-from-microsoft-azure-to-bot-framework/)
+4. [เชื่อมต่อกับ Facebook Page](http://nextflow.in.th/2017/connect-chatbot-to-facebook-messenger-platform-with-microsoft-bot-framework/)
 
 ## อ้างอิง
 
