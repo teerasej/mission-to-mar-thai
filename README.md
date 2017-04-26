@@ -10,8 +10,11 @@
 
 ## อ้างอิง
 
-* Microsoft Bot Framework
-    * Register new Bot
-* Microsoft Azure 
-    * Dashboard
-* ซีรี่ยส์สร้าง Chatbot ด้วย Node.js, Microsoft Bot Framework และ Microsoft Azure 
+* [Microsoft Bot Framework](https://dev.botframework.com/)
+    * [Register new Bot](https://dev.botframework.com/bots/new)
+* [Microsoft Visual Studio Dev Essential](https://www.visualstudio.com/dev-essentials/)
+* [Github](https://github.com/)
+    * [Sign Up New Account](https://github.com/join?source=header-home)
+* [Microsoft Azure](https://azure.microsoft.com/en-us/) 
+    * [Portal](https://portal.azure.com/)
+* [ซีรี่ยส์สร้าง Chatbot ด้วย Node.js, Microsoft Bot Framework และ Microsoft Azure](http://nextflow.in.th/2017/create-chatbot-facebook-messenger-nodejs-microsoft-bot-framework-azure-thai/)
