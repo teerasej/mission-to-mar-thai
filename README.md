@@ -4,8 +4,8 @@
 
 ## ภารกิจเดือนเมษายน
 
-1. เริ่มสร้าง Bot 
-2. สู่ความเวิ้งว้าง! นำ Bot ของเราสู่วงโคจรของ Microsoft Azure
+1. [เริ่มต้น Bot ตัวแรกกับ Microsoft Bot Framework](https://github.com/teerasej/mission-to-mar-thai/blob/master/mission-1.md)
+2. [ส่ง Bot สู่ความเวิ้งว้างกับ Microsoft Azure](https://github.com/teerasej/mission-to-mar-thai/blob/master/mission-2.md) 
 3. เชื่อมต่อกับ Facebook Page
 
 ## อ้างอิง
