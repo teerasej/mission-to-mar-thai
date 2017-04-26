@@ -19,7 +19,7 @@
     "main" : "index.js" ,
     "scripts" : {
         ...
-        "start" : "node index.js" // 
+        "start" : "node index.js"
     }
 ...
 }
