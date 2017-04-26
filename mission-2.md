@@ -5,8 +5,9 @@
 สิ่งที่คุณต้องมีในภารกิจนี้ 
 
 1. โปรเจค Bot จากภารกิจที่ 1 
-2. Github Account [สมัครที่นี่](https://github.com/join?source=header-home)
-3. [ลงทะเบียน Visual Studio Dev Essential](https://www.visualstudio.com/dev-essentials/) เพื่อได้เครดิตใช้งาน Azure ฟรี เดือนละ 25 เหรียญ
+2. Github Account [สมัครที่นี่](https://github.com/join?source=header-home) 
+3. ติดตั้ง Git Client มีให้เลือกระหว่างใช้งานผ่าน [Git Command Line](https://git-scm.com/downloads) และเป็น Application ([Github Desktop](https://desktop.github.com/)) **อย่าลืมเลือกตัวเลือกติดตั้งลง Path ของระบบด้วย เพื่อให้เรียกใช้ได้ง่าย**
+4. [ลงทะเบียน Visual Studio Dev Essential](https://www.visualstudio.com/dev-essentials/) เพื่อได้เครดิตใช้งาน Azure ฟรี เดือนละ 25 เหรียญ
 
 ## 1. ตั้งค่า package.json สำหรับ Web Service
 
