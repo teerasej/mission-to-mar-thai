@@ -8,7 +8,7 @@
 2. Github Account [สมัครที่นี่](https://github.com/join?source=header-home)
 3. [ลงทะเบียน Visual Studio Dev Essential](https://www.visualstudio.com/dev-essentials/) เพื่อได้เครดิตใช้งาน Azure ฟรี เดือนละ 25 เหรียญ
 
-##1. ตั้งค่า package.json สำหรับ Web Service
+## 1. ตั้งค่า package.json สำหรับ Web Service
 
 เปิดไฟล์ `package.json` และกำหนดค่าตามนี้ 
 
@@ -35,7 +35,7 @@
 	}
 
 
-##2. สร้าง Github Repository และเชื่อมกับโปรเจคในเครื่องทฟพ
+## 2. สร้าง Github Repository และเชื่อมกับโปรเจคในเครื่องทฟพ
 
 เริ่มแรกเราจะทำการสร้าง Git Repository เพื่อเก็บไฟล์โปรเจค Bot ของเรา และใช้ในการเชื่อมต่อติดตั้งบน Microsoft Azure 
 
@@ -45,7 +45,7 @@
 
 เราจะได้ Repository เปล่าๆ มา 1 อัน จะเห็นว่า**เราได้ URL ของ Repository มา** ซึ่งเราจะใช้ในขั้นตอนต่อไป
 
-###3. ตั้งค่า Git ให้โปรเจค
+## 3. ตั้งค่า Git ให้โปรเจค
 
 กลับมาที่โปรเจคของเราใน Visual Studio Code ในส่วนของ Integrated Terminal ให้เรารันคำสั่ง
 
@@ -64,7 +64,7 @@ git remote add origin <Repository Url>
 
 หลังจากรันแล้ว ในส่วนของ Git ใน Visual Studio Code จะเห็นว่ามีไฟล์มากมายรอให้ทำการ commit ขึ้น Repo ซึ่งบางส่วนก็ไม่จำเป็น เราสามารถกำหนดได้ว่าจะไม่ให้ git ทำการอัพโหลดโฟลเดอร์ไหนขึ้น Repo ด้วยไฟล์ **.gitignore**
 
-###4. สร้างไฟล์ .gitignore
+## 4. สร้างไฟล์ .gitignore
 
 ให้เราใช้คำสั่ง **File > New File** จากนั้นกรอกข้อความลงในไฟล์ดังนี้
 
@@ -75,13 +75,13 @@ node_modules/
 
 จากนั้นให้บันทึกไฟล์ ตั้งชื่อไฟล์ว่า `.gitignore` (สังเกตว่ามี เครื่องหมาย “จุด” นำหน้าชื่อ) จะทำให้ git ไม่สนใจไฟล์ในโฟลเดอร์ `node_modules` ทั้งหมด
 
-###5. Commit ไฟล์ขึ้น Repo
+## 5. Commit ไฟล์ขึ้น Repo
 
 กลับมาที่ Git ใน Visual Studio Code กรอกข้อความ ‘Initial Commit’ คงในช่อง message และกดปุ่ม Commit (เครื่องหมายถูก)
 
 จากนั้นจากปุ่ม Option (เครื่องหมาย **...** ) เลือกคำสั่ง Publish และเลือก Origin เพื่อส่งไฟล์ในโปรเจคขึ้น Github Repository
 
-###6. สร้าง Azure App Service และ Deploy โปรเจคจาก Github 
+## 6. สร้าง Azure App Service และ Deploy โปรเจคจาก Github 
 
 ทำการสร้าง App Service บน Microsoft Azure และกำหนด Deploy โปรเจคจาก Github [ตามขั้นตอนใน Link นี้](http://nextflow.in.th/2017/how-to-deploy-chat-bot-to-microsoft-azure/)
 
