@@ -12,28 +12,31 @@
 
 เปิดไฟล์ `package.json` และกำหนดค่าตามนี้ 
 
-	{
-	...
-		"main" : "index.js" ,
-		"scripts" : {
-			...
-			"start" : "node index.js" // 
-		}
-	...
-	}
+```
+{
+...
+    "main" : "index.js" ,
+    "scripts" : {
+        ...
+        "start" : "node index.js" // 
+    }
+...
+}
+```
 
 โดยไฟล์ `index.js` คือไฟล์โค้ดที่เราเขียน Bot เอาไว้ และคำสั่ง `start` ไว้สำหรับให้ Web Service เรียกใช้งาน สำหรับบางคนตั้งชื่อไฟล์เป็น `app.js` ก็ตั้งตามไฟล์ที่มีนะครับเช่น
 
-	{
-	...
-		"main" : "app.js" ,
-		"scripts" : {
-			...
-			"start" : "node app.js" // 
-		}
-	...
-	}
-
+```
+{
+...
+    "main" : "app.js" ,
+    "scripts" : {
+        ...
+        "start" : "node app.js" // 
+    }
+...
+}
+```
 
 ## 2. สร้าง Github Repository และเชื่อมกับโปรเจคในเครื่องทฟพ
 
@@ -51,13 +54,12 @@
 
 ```
 git init
-
 ```
+
 และตามด้วย 
 
 ```
 git remote add origin <Repository Url>
-
 ```
 
 โดย Repository Url คือ Url ที่เราคัดลอกมาจากการสร้าง Repo ของเราในขั้นตอนที่แล้ว เช่น `https://github.com/teerasej/marsbot`
@@ -70,7 +72,6 @@ git remote add origin <Repository Url>
 
 ```
 node_modules/
-
 ```
 
 จากนั้นให้บันทึกไฟล์ ตั้งชื่อไฟล์ว่า `.gitignore` (สังเกตว่ามี เครื่องหมาย “จุด” นำหน้าชื่อ) จะทำให้ git ไม่สนใจไฟล์ในโฟลเดอร์ `node_modules` ทั้งหมด
@@ -79,7 +80,7 @@ node_modules/
 
 กลับมาที่ Git ใน Visual Studio Code กรอกข้อความ ‘Initial Commit’ คงในช่อง message และกดปุ่ม Commit (เครื่องหมายถูก)
 
-จากนั้นจากปุ่ม Option (เครื่องหมาย **...** ) เลือกคำสั่ง Publish และเลือก Origin เพื่อส่งไฟล์ในโปรเจคขึ้น Github Repository
+จากนั้นกดปุ่ม Option (เครื่องหมาย **...** ) เลือกคำสั่ง Publish และเลือก Origin เพื่อส่งไฟล์ในโปรเจคขึ้น Github Repository
 
 ## 6. สร้าง Azure App Service และ Deploy โปรเจคจาก Github 
 
