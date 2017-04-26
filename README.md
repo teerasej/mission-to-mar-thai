@@ -9,6 +9,11 @@
 3. [เชื่อมต่อ Bot กับ Microsoft Bot Framework](http://nextflow.in.th/2017/connect-chatbot-from-microsoft-azure-to-bot-framework/)
 4. [เชื่อมต่อกับ Facebook Page](http://nextflow.in.th/2017/connect-chatbot-to-facebook-messenger-platform-with-microsoft-bot-framework/)
 
+## Labs 
+
+* [Lab 1: Marsbot](https://github.com/teerasej/mission-to-mar-thai/blob/master/labs-1.md)
+* [Lab 2: Facebook User Name](https://github.com/teerasej/mission-to-mar-thai/blob/master/labs-2.md)
+
 ## อ้างอิง
 
 * [Microsoft Bot Framework](https://dev.botframework.com/)
